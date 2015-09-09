@@ -34,8 +34,7 @@ IE自己的事件模型跟W3C的类似，但主要是通过attachEvent和detachE
 ```javascript
 window.attachEvent(‘onload’,function(){…});
 document.body.attachEvent(‘onkeypress’,myKeyHandler);
- 
- ```
+```
 可以发现它跟W3C的区别是没有第三个参数，而且第一个表示事件类型的参数也必须把’on’给加上。这种方式的优点就是能绑定多个事件处理函数在同一个DOM元素上。
  <br>
 至于它的缺点，为什么如今在实际开发中很少见呢？首先IE浏览器本身只支持Bubbling不支持Capturing；而且在事件处理的function内部this关键字也无法使用，因为this永远都只想window object这个全局对象。要想得到event对象必须通过window.event方式，最后一点，在别的浏览器中，它显然是无法工作的。
