@@ -34,3 +34,16 @@ var element=document.getElementById("test");
 var child=document.getElementById("child");
 element.replaceChild(para,child);
 ```
+## HTML DOM 事件
+##### onload和onunload事件
+```javascript
+```
+##### onchange事件
+```javascript
+```
+##### onmouseover和onmouseout事件
+```javascript
+```
+##### onmousedown、onmouseup 以及 onclick 事件
+```javascript
+```
