@@ -23,3 +23,4 @@ HTML DOM 对象 - 方法和属性
     parentNode - 节点（元素）的父节点
     childNodes - 节点（元素）的子节点
     attributes - 节点（元素）的属性节点
+![images](https://github.com/sunshine9/HTML-DOM/blob/master/images/filehelper_1441781746579_39.jpg)
