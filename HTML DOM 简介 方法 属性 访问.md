@@ -32,14 +32,14 @@ innerHTML 属性对于获取或替换 HTML 元素的内容很有用。
 var txt=document.getElementById("Intro").innerHTML;
 document.write(txt);
 ```
-nodeValue 属性
+##### nodeValue 属性
 
 nodeValue 属性规定节点的值。
 
     元素节点的 nodeValue 是 undefined 或 null
     文本节点的 nodeValue 是文本本身
     属性节点的 nodeValue 是属性值
-nodeType 属性
+##### nodeType 属性
 
 nodeType 属性返回节点的类型。nodeType 是只读的。
 
