@@ -24,3 +24,29 @@ HTML DOM 对象 - 方法和属性
     childNodes - 节点（元素）的子节点
     attributes - 节点（元素）的属性节点
 ![images](https://github.com/sunshine9/HTML-DOM/blob/master/images/filehelper_1441781746579_39.jpg)
+## HTML DOM 属性
+属性是节点（HTML 元素）的值，您能够获取或设置。
+##### innerHTML 属性
+innerHTML 属性对于获取或替换 HTML 元素的内容很有用。
+```javascript
+var txt=document.getElementById("Intro").innerHTML;
+document.write(txt);
+```
+nodeValue 属性
+
+nodeValue 属性规定节点的值。
+
+    元素节点的 nodeValue 是 undefined 或 null
+    文本节点的 nodeValue 是文本本身
+    属性节点的 nodeValue 是属性值
+nodeType 属性
+
+nodeType 属性返回节点的类型。nodeType 是只读的。
+
+比较重要的节点类型有：
+元素类型 	NodeType
+元素 	1
+属性 	2
+文本 	3
+注释 	8
+文档 	9
